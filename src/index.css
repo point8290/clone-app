@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.name{
+  margin: 50px;
+  color:indigo;
+  display: grid;
+  justify-content: center;
+  font-size:50px;
+  font-family: 'Russo One', sans-serif;
+  
 }
+.main-container{
+  display: inline-flex;
+  flex-wrap: wrap;
+} 
 
-code {
+.cards {
+  display:  flex;
+  flex-direction: column;
+  margin: 50px;
+  color:crimson;
+  font-weight: 800;
+  font-size: larger;
+  padding: 10px 10px;
+  background-color: aquamarine;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    border:2px solid black;
+    border-radius: 5px;
+    min-height: 100px;
+    min-width: 200px;
 }
+.title{ 
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.task{
+  width:200px;
+  color:black;
+  padding: 5px;
+  background-color:bisque;
+  margin: 10px 0;
+  border: 2px solid lightseagreen;
+  border-radius: 5px;
+}
+.input{
+  margin-left:50px;
+  padding : 5px;
+  border-radius: 5%;
+}
+.btn {
+  padding: 5px;
+  background-color: #dcdcdc;
+  border: 1px groove #666;
+  border-radius: 5%;
+  margin-left: 10px;
+  color:#000;
+  
+}
+.btn:hover{
+  background-color: black;
+  color:white;
+} 
