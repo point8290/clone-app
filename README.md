@@ -1,4 +1,10 @@
+This projects is a basic to-do application with drag and drop features. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This projects uses react-beautiful-dnd library to implement drag and drop features. (https://github.com/atlassian/react-beautiful-dnd)
+Install react-beautiful-library by using NPM.
+
+### `npm install react-beautiful-dnd`
 
 ## Available Scripts
 
