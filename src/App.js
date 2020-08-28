@@ -9,7 +9,7 @@ class App extends Component {
     if (todo != null) {
       const id = Math.random().toString(36).substring(7);
       todo.id = id;
-      console.log(todo);
+      //console.log(todo);
       const card = this.state.cards["card-1"];
       const T = this.state.Todo;
       T[id] = todo;
