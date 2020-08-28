@@ -1,10 +1,6 @@
 This projects is a basic to-do application with drag and drop features. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
-This projects uses react-beautiful-dnd library to implement drag and drop features. (https://github.com/atlassian/react-beautiful-dnd).<br />
-Install react-beautiful-library by using NPM.
-
-### `npm install react-beautiful-dnd`
 
 ## Available Scripts
 
@@ -72,3 +68,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+This projects uses react-beautiful-dnd library to implement drag and drop features. (https://github.com/atlassian/react-beautiful-dnd).<br />
+Install react-beautiful-library by using NPM.
+
+### `npm install react-beautiful-dnd`
