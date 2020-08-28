@@ -10,7 +10,7 @@ export default class Task extends Component {
                 {...provided.draggableProps}
                 {...provided.dragHandleProps}
                 ref={provided.innerRef}
-                // isDragging={snapshot.isDragging}
+              
                 >
                 {this.props.task.task}
               </div>

@@ -28,7 +28,7 @@ class App extends Component {
   };
 
   onDragEnd = (result) => {
-    console.log(result);
+    // console.log(result);
 
     const { destination, source, draggableId } = result;
     if (!destination) {
@@ -60,7 +60,7 @@ class App extends Component {
           [newCard.id]: newCard,
         },
       };
-      console.log(newState);
+      // console.log(newState);
       this.setState(newState);
     } else {
       const startTaskIds = Array.from(Startcard.tasks);
